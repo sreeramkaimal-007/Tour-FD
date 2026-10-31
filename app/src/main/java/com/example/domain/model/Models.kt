@@ -244,7 +244,7 @@ object SettlementEngine {
         totalSpent: Double
     ): String {
         val sb = StringBuilder()
-        sb.append("✈️ Tour FD Expense Summary: $tourTitle\n")
+        sb.append("✈️ YIGRO Expense Summary: $tourTitle\n")
         sb.append("────────────────────────\n")
         sb.append(String.format(Locale.getDefault(), "💰 Total Tour Spending: %s%.2f\n\n", currencySymbol, totalSpent))
 
@@ -274,7 +274,7 @@ object SettlementEngine {
                     s.fromMemberName, s.toMemberName, currencySymbol, s.amount, paySuffix))
             }
         }
-        sb.append("\nSettled seamlessly via Tour FD 📱")
+        sb.append("\nSettled seamlessly via YIGRO 📱")
         return sb.toString()
     }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Tour FD",
-  "description": "Tour FD - Smart group tour expense splitter and debt settlement app for friends & families with fair-share calculations, customizable splits, and owner monetization insights.",
+  "name": "YIGRO",
+  "description": "YIGRO - Smart group tour expense splitter and debt settlement app for friends & families with fair-share calculations, customizable splits, and owner monetization insights.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

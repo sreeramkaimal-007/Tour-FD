@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Tour FD"
+rootProject.name = "YIGRO"
 
 include(":app")

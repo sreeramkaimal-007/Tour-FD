@@ -104,14 +104,14 @@ fun AuthScreen(
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.ic_tour_fd_logo),
-                                contentDescription = "Tour FD Logo",
+                                contentDescription = "YIGRO Logo",
                                 contentScale = ContentScale.Fit,
                                 modifier = Modifier.padding(2.dp)
                             )
                         }
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            "Tour FD",
+                            "YIGRO",
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.primary
                         )
@@ -174,7 +174,7 @@ fun AuthScreen(
             Spacer(modifier = Modifier.height(24.dp))
 
             Text(
-                text = if (selectedTab == 0) "Sign in to Tour FD" else "Create Your Account",
+                text = if (selectedTab == 0) "Sign in to YIGRO" else "Create Your Account",
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onSurface

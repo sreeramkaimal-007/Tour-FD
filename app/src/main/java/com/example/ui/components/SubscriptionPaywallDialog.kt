@@ -74,7 +74,7 @@ fun SubscriptionPaywallDialog(
                 Spacer(modifier = Modifier.width(10.dp))
                 Column {
                     Text(
-                        "Tour FD Pro Subscription",
+                        "YIGRO Pro Subscription",
                         fontWeight = FontWeight.Bold,
                         fontSize = 17.sp
                     )
@@ -93,7 +93,7 @@ fun SubscriptionPaywallDialog(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 Text(
-                    text = "Upgrade to Tour FD Pro! Both 1-Month and 1-Year plans allow you to add unlimited family members and accounts, plus unlock advanced tools:",
+                    text = "Upgrade to YIGRO Pro! Both 1-Month and 1-Year plans allow you to add unlimited family members and accounts, plus unlock advanced tools:",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )

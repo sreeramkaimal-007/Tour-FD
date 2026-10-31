@@ -59,7 +59,7 @@ import androidx.compose.ui.unit.sp
 import com.example.data.remote.SupabaseConfig
 import com.example.ui.viewmodel.TourViewModel
 
-const val SUPABASE_SQL_SCHEMA = """-- Supabase SQL Schema for Tour FD
+const val SUPABASE_SQL_SCHEMA = """-- Supabase SQL Schema for YIGRO
 -- Run this in your Supabase SQL Editor:
 
 create table if not exists public.profiles (

@@ -189,7 +189,7 @@ fun TourDetailScreen(
                         onClick = {
                             val report = viewModel.getShareableReportText()
                             val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                            clipboard.setPrimaryClip(ClipData.newPlainText("Tour FD Report", report))
+                            clipboard.setPrimaryClip(ClipData.newPlainText("YIGRO Report", report))
                             Toast.makeText(context, "Settlement summary copied to clipboard! Ready to share.", Toast.LENGTH_LONG).show()
                         },
                         modifier = Modifier.testTag("share_summary_btn")
@@ -415,7 +415,7 @@ fun TourDetailScreen(
                     onShareSummary = {
                         val report = viewModel.getShareableReportText()
                         val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                        clipboard.setPrimaryClip(ClipData.newPlainText("Tour FD Report", report))
+                        clipboard.setPrimaryClip(ClipData.newPlainText("YIGRO Report", report))
                         Toast.makeText(context, "Settlement text copied! Paste it in your WhatsApp group chat.", Toast.LENGTH_LONG).show()
                     }
                 )
@@ -623,7 +623,7 @@ fun TourDetailScreen(
             },
             text = {
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("Tour FD Pro allows you to export itemized PDF and Excel reports with receipt attachments and company tax summaries.")
+                    Text("YIGRO Pro allows you to export itemized PDF and Excel reports with receipt attachments and company tax summaries.")
                     if (isSubscribed) {
                         Surface(
                             color = Color(0xFFE8F5E9),
@@ -631,7 +631,7 @@ fun TourDetailScreen(
                             modifier = Modifier.padding(top = 8.dp)
                         ) {
                             Text(
-                                "✅ Tour FD Subscription Active! PDF Summary generated successfully to device storage.",
+                                "✅ YIGRO Subscription Active! PDF Summary generated successfully to device storage.",
                                 color = Color(0xFF2E7D32),
                                 fontSize = 13.sp,
                                 modifier = Modifier.padding(10.dp)
@@ -644,7 +644,7 @@ fun TourDetailScreen(
                             modifier = Modifier.padding(top = 8.dp)
                         ) {
                             Text(
-                                "⭐ Available with Tour FD Subscription (1-Month or 1-Year Plan). You can subscribe from the members tab or owner hub!",
+                                "⭐ Available with YIGRO Subscription (1-Month or 1-Year Plan). You can subscribe from the members tab or owner hub!",
                                 color = MaterialTheme.colorScheme.onSecondaryContainer,
                                 fontSize = 13.sp,
                                 modifier = Modifier.padding(10.dp)
@@ -660,7 +660,7 @@ fun TourDetailScreen(
                         if (!isSubscribed) {
                             viewModel.triggerPaywall(true)
                         } else {
-                            Toast.makeText(context, "Report exported to Documents/TourFD_${currentTour.title}.pdf", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(context, "Report exported to Documents/YIGRO_${currentTour.title}.pdf", Toast.LENGTH_SHORT).show()
                         }
                     }
                 ) {
@@ -689,13 +689,13 @@ fun TourDetailScreen(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("How Tour FD Settle Works", fontWeight = FontWeight.Bold)
+                    Text("How YIGRO Settle Works", fontWeight = FontWeight.Bold)
                 }
             },
             text = {
                 Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(
-                        "Tour FD uses two core mathematical models to make group travel expenses effortless and fair:",
+                        "YIGRO uses two core mathematical models to make group travel expenses effortless and fair:",
                         fontSize = 13.sp
                     )
                     Card(

@@ -111,14 +111,14 @@ fun HomeScreen(
                         ) {
                             androidx.compose.foundation.Image(
                                 painter = androidx.compose.ui.res.painterResource(id = com.example.R.drawable.ic_tour_fd_logo),
-                                contentDescription = "Tour FD Logo",
+                                contentDescription = "YIGRO Logo",
                                 contentScale = androidx.compose.ui.layout.ContentScale.Fit,
                                 modifier = Modifier.padding(2.dp)
                             )
                         }
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            "Tour FD",
+                            "YIGRO",
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.primary
                         )

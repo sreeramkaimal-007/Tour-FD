@@ -796,7 +796,7 @@ class TourViewModel(application: Application) : AndroidViewModel(application) {
     ): Boolean {
         if (payeeUpiId.isBlank()) return false
         return try {
-            val note = "Tour FD: $tourTitle settlement"
+            val note = "YIGRO: $tourTitle settlement"
             val uri = Uri.parse(
                 "upi://pay?pa=$payeeUpiId&pn=${Uri.encode(payeeName)}&am=${String.format(Locale.US, "%.2f", amount)}&cu=INR&tn=${Uri.encode(note)}"
             )

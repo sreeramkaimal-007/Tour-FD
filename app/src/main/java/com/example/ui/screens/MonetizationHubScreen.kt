@@ -140,7 +140,7 @@ fun MonetizationHubScreen(
                                     color = Color.White
                                 )
                                 Text(
-                                    "How to generate high recurring revenue from Tour FD",
+                                    "How to generate high recurring revenue from YIGRO",
                                     fontSize = 12.sp,
                                     color = Color.White.copy(alpha = 0.85f)
                                 )
@@ -177,7 +177,7 @@ fun MonetizationHubScreen(
                                 Icon(Icons.Default.Diamond, contentDescription = null, tint = MaterialTheme.colorScheme.secondary, modifier = Modifier.size(20.dp))
                                 Spacer(modifier = Modifier.width(6.dp))
                                 Text(
-                                    "Test Tour FD Pro In-App",
+                                    "Test YIGRO Pro In-App",
                                     fontWeight = FontWeight.Bold,
                                     style = MaterialTheme.typography.titleSmall
                                 )
@@ -194,7 +194,7 @@ fun MonetizationHubScreen(
                                 viewModel.toggleProUnlocked()
                                 Toast.makeText(
                                     context,
-                                    if (!isProUnlocked) "Tour FD Pro Unlocked! Check out Tour options." else "Pro mode disabled.",
+                                    if (!isProUnlocked) "YIGRO Pro Unlocked! Check out Tour options." else "Pro mode disabled.",
                                     Toast.LENGTH_SHORT
                                 ).show()
                             },
@@ -207,7 +207,7 @@ fun MonetizationHubScreen(
             // Strategy 1: Freemium / Tour FD Pro
             item {
                 RevenueStreamCard(
-                    title = "1. Tour FD Subscriptions (1 Month & Yearly)",
+                    title = "1. YIGRO Subscriptions (1 Month & Yearly)",
                     tag = "Core Gatekeeper Model",
                     icon = Icons.Default.Diamond,
                     accentColor = Color(0xFF673AB7),
@@ -264,7 +264,7 @@ fun MonetizationHubScreen(
                     accentColor = Color(0xFFE65100),
                     description = "Connect travel groups directly with local restaurants and attractions seeking high-spend family tables.",
                     bulletPoints = listOf(
-                        "Group dining promotions: 'Show Tour FD for 15% off tables of 5+'",
+                        "Group dining promotions: 'Show YIGRO for 15% off tables of 5+'",
                         "Restaurants pay $50 - $200/month for promoted placement in popular vacation cities",
                         "Win-win: Tourists save money, merchants get large groups, you earn sponsorship fees"
                     )

@@ -146,7 +146,7 @@ fun WelcomeIntroScreen(
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.ic_tour_fd_logo),
-                        contentDescription = "Tour FD Logo",
+                        contentDescription = "YIGRO Logo",
                         contentScale = ContentScale.Fit,
                         modifier = Modifier
                             .fillMaxSize()
@@ -162,7 +162,7 @@ fun WelcomeIntroScreen(
                 ) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Text(
-                            text = "Tour FD",
+                            text = "YIGRO",
                             fontSize = 32.sp,
                             fontWeight = FontWeight.ExtraBold,
                             color = Color.White,
